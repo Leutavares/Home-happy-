@@ -1,0 +1,86 @@
+/* Estilizando o corpo do site */
+body {
+  font-family: Arial, sans-serif; /* Fonte limpa e profissional */
+  margin: 0; /* Remove margens padrão */
+  padding: 20px; /* Espaço interno nas bordas */
+  background-color: #f5f5f5; /* Fundo cinza claro */
+}
+
+/* Título principal */
+h1 {
+  text-align: center; /* Centraliza o título */
+  color: #333; /* Cor cinza escura */
+  margin-bottom: 40px; /* Espaço abaixo do título */
+}
+
+/* Estilizando os quartos */
+.quarto {
+  background-color: white; /* Fundo branco para cada quarto */
+  padding: 20px; /* Espaço interno */
+  margin-bottom: 20px; /* Espaço entre os quartos */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Títulos dos quartos */
+h2 {
+  color: #2c3e50; /* Azul escuro */
+  margin-top: 0; /* Remove margem superior */
+}
+
+/* Imagens dos quartos */
+img {
+  max-width: 100%; /* Imagem se ajusta ao container */
+  height: auto; /* Mantém proporção */
+  border-radius: 5px; /* Bordas arredondadas nas imagens */
+}
+
+/* Parágrafos com descrição */
+p {
+  color: #666; /* Cinza médio */
+  line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+/* Estilizando o formulário */
+form {
+  background-color: white; /* Fundo branco */
+  padding: 20px; /* Espaço interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 500px; /* Largura máxima */
+  margin: 0 auto; /* Centraliza o formulário */
+}
+
+/* Labels e inputs */
+label {
+  display: block; /* Cada label em uma linha */
+  margin-bottom: 10px; /* Espaço entre campos */
+  color: #333; /* Cor do texto */
+}
+
+input, textarea {
+  width: 100%; /* Ocupa toda a largura disponível */
+  padding: 8px; /* Espaço interno */
+  border: 1px solid #ddd; /* Borda cinza clara */
+  border-radius: 5px; /* Bordas arredondadas */
+  box-sizing: border-box; /* Inclui padding na largura */
+}
+
+textarea {
+  height: 100px; /* Altura do campo de mensagem */
+}
+
+/* Botão de enviar */
+button {
+  background-color: #3498db; /* Azul vibrante */
+  color: white; /* Texto branco */
+  padding: 10px 20px; /* Espaço interno */
+  border: none; /* Remove borda padrão _
+
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Mãozinha ao passar o mouse */
+}
+
+button:hover {
+  background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+}
