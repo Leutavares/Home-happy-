@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Aluguel de Quartos</title>
+</head>
+<body>
+  <h1>Quartos para Alugar</h1>
+  <p>Quarto 1 - R$500/mês - [Descrição e foto aqui]</p>
+  <p>Quarto 2 - R$600/mês - [Descrição e foto aqui]</p>
+
+  <h2>Entre em Contato</h2>
+  <form netlify name="contato">
+    <label>Nome: <input type="text" name="nome"></label><br>
+    <label>Email: <input type="email" name="email"></label><br>
+    <label>Mensagem: <textarea name="mensagem"></textarea></label><br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
